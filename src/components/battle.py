@@ -32,7 +32,6 @@ class Battle(object):
     					return 
 				
 				self.menu()
-					
 
 	def playerAttack():
 		health = self.npc['hp'] - self.player["atk"]
@@ -75,9 +74,6 @@ class Battle(object):
     			i = int(input("Which one do you want to choose: "))
 
 		return self.player['items'][i-1]
-			
-			
-    			
 
 	def npcItem():
 		randomInt = randint(0,len(self.npc["items"]))

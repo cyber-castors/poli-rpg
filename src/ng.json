@@ -2,7 +2,6 @@
     "player": {
         "name": "",
         "major": "",
-        "HP": 50,
         "lvl": 1,
         "exp": 0,
         "hp": 50,
@@ -15,6 +14,7 @@
     },
     "npc": {
         "Luis Ortiz": {
+            "name": "Luis Ortiz",
             "hp": 100,
             "atk": 15,
             "def": 20,
@@ -30,11 +30,11 @@
             "dialog": [
                 {
                     "opt": "Que es la que profe",
-                    "res:": "*Luis Ortiz te tira una coca cola"
+                    "res": "*Luis Ortiz te tira una coca cola"
                 },
                 {
                     "opt": "Profe corrige mi trabajo!",
-                    "res:": "Tu estas en capstone? A no, pues lee el SRS hehehe"
+                    "res": "Tu estas en capstone? A no, pues lee el SRS hehehe"
                 }
             ]
         }

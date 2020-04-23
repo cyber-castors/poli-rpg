@@ -39,11 +39,13 @@
         9. Major
         10. Credits
     * Methods:
-        1. Add Experience
+        1. Level Up
         2. Use Item (Outside of Battle Instance)
         3. Show Stats
         4. View Badges
         5. View Attacks
+        6. View Items
+    * Formulas
 
 2. NPC
     * Attributes:
@@ -55,7 +57,7 @@
         6. Dialog
         7. Experience (For Defeating)
 
-3. Battle
+3. Battle (player_obj, npc_obj)
     * Attributes
         <!-- 1. Player Attack
         2. Player Defense -->
@@ -84,10 +86,10 @@
     * Methods:
         1. Buy Item
         2. Sell Item
-        3. Show Plyer Items
+        3. Show Player Items
         4. Show Store Items
 
-5. Level
+5. Level/Course
     * Attributes:
         1. Player Name
         2. Player Badges
